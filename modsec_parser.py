@@ -11,7 +11,7 @@ from datetime import datetime,date
 from elasticsearch5 import Elasticsearch
 
 # Please, check the elasticsearch URL below:
-es = Elasticsearch(['http://akebi.bluecore.net:9200'])
+es = Elasticsearch(['http://localhost:9200'])
 
 # parse arguments
 opts, args = getopt.getopt(sys.argv[1:],"hd:",["help","log-directory="])
